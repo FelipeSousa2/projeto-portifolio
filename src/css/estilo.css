@@ -71,29 +71,43 @@ li:hover{
 }
 
 .content{
+    
+    min-height: 400px;
     margin-top: 10px;
     
     width: 100%;
-    height: 75vh;
+    height: 85vh;
     color: white;
     padding: 100px;
-    display: flex;    
+    display: flex; 
+    justify-content: space-around;
+       
     
+}
+
+.descricao{
+    max-width: 380px;
+    align-items: center;
 }
 
 .content h1{
-    
-   
+    margin: auto;
     font-family: 'Sail', cursive;
     text-align: center;
-    width: 100%;
+    width: auto;
     font-size: 70px;
+    
+    
 }
 
 .content p{
+    margin: auto;
     font-family: 'El Messiri', sem serifa;
     text-align: center;
     font-size: 35px;
+    width: auto;
+    min-height: auto;
+    
 }
 
 .img-content{
@@ -102,19 +116,14 @@ li:hover{
     width: 50%;
     align-self: center;
     
-    
-    
-    
 }
 
 .img-halo{
+    min-width: none;
     flex-wrap: wrap;
-    min-width: 65%;
+    max-width: 400px;
     position: static;
-    float: right;
-    
-    
-    
+    width: 60%;
 }
 
 
