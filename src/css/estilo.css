@@ -1,77 +1,60 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
     max-width: 1280px;
+    min-height: 100vh;
     margin: 0  auto;
     background-image: linear-gradient(to right,  rgb(20, 147, 220), rgb(17, 54, 71));
 }
 
-aside{
-    display: flex;
-    
-}
 .menu{
     
+    justify-content: flex-end;
+    margin-top: 10px;
+    background-color: aqua;
     
-    display: flex;
-    height: auto;
-    width: 100%;
-    justify-content: center;
-    flex-direction: row;
-    margin-bottom: 40px;
-    
-}
+}    
 
 .menu ul{
-    position: absolute;
-    max-width: 460px;
     display: flex;
-    align-items: center;
+    gap: 15px;
     justify-content: center;
     flex-wrap: wrap;
+    font-family: 'El Messiri', sem serifa;
     
 }
 
-
-
-li{
-    padding: 8px;
-    font-size: 17px;
-    border: none;
-    margin: 15px;
-    border-radius: 10px;
-    
-    
-    
-    
+.menu li{
+   padding: 10px;
+    font-size: 1.2em;
+    border-radius: 5px;
+    position: relative;
 }
 
-a{
-    color: white;
-    font-family:  'El Messiri', sem serifa;
-    
-    
+
+.menu a{
+    color: #ffff;
 }
 
 li:hover{
-    
     transition: .5s;
     cursor: pointer;
     background-image: linear-gradient(to right
     , rgb(20, 147, 220),rgb(17, 54, 71));
 } 
 
-.img{
-    
-    width: 50%;
-    min-width: auto;
-    justify-content: right;
-    display: flex;
-    position: relative;
-    
+.icon{
+    width: auto;
+    justify-content: center;
 }
 
-.content{
-    
+
+
+
+
+
+
+/* .content{
+     
     min-height: 400px;
     margin-top: 10px;
     
@@ -106,25 +89,25 @@ li:hover{
     text-align: center;
     font-size: 35px;
     width: auto;
-    min-height: auto;
     
 }
 
 .img-content{
     min-width: fit-content;
     max-width: 460px;
-    width: 50%;
+    
     align-self: center;
+    
+    
     
 }
 
 .img-halo{
-    min-width: none;
+    
     flex-wrap: wrap;
-    max-width: 400px;
-    position: static;
-    width: 60%;
-}
+   
+    opacity: cover;
+}     */
 
 
 
