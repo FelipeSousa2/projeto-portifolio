@@ -6,13 +6,13 @@ body{
     background-image: linear-gradient(to right,  rgb(20, 147, 220), rgb(17, 54, 71));
 }
 
-.menu{
+header {
+    align-content: center;
     
-    justify-content: flex-end;
-    margin-top: 10px;
-    background-color: aqua;
     
-}    
+}
+
+  
 
 .menu ul{
     display: flex;
@@ -33,19 +33,25 @@ body{
 
 .menu a{
     color: #ffff;
-}
+} 
 
-li:hover{
+ li:hover{
     transition: .5s;
     cursor: pointer;
     background-image: linear-gradient(to right
     , rgb(20, 147, 220),rgb(17, 54, 71));
 } 
 
-.icon{
-    width: auto;
-    justify-content: center;
+header .icon{
+    
+    text-align: center;
 }
+
+.icon > img{
+    width: 85px;
+    
+}
+
 
 
 
