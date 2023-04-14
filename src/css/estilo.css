@@ -1,119 +1,104 @@
+@import url('https://fonts.googleapis.com/css2? family= Carattere & family= Macondo & display=swap');
+
 body{
     font-family: Arial, Helvetica, sans-serif;
     max-width: 1280px;
     min-height: 100vh;
     margin: 0  auto;
-    background-image: linear-gradient(to right,  rgb(20, 147, 220), rgb(17, 54, 71));
-}
-
-header {
-    align-content: center;
-    
+    background-image: url(../imagens/13167.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
     
 }
 
-  
-
-.menu ul{
+.navbar{
+    
     display: flex;
-    gap: 15px;
+    /* height: 100px; */
+    /* border: 1px solid white; */
+    flex-flow: row wrap;
     justify-content: center;
-    flex-wrap: wrap;
-    font-family: 'El Messiri', sem serifa;
-    
+    align-items: center;
+
+}
+
+.icon{
+    margin-left: 20%;
+    flex: 5%;
+    text-align: left;
+    /* border: 1px solid black; */
+}
+
+.menu{
+    font-family: 'Macondo', cursive;
+    display: flex;
+    flex: 70%;
+    justify-content: center;
+    padding: 20px;
+    /* border: 1px solid black; */
 }
 
 .menu li{
-   padding: 10px;
-    font-size: 1.2em;
-    border-radius: 5px;
-    position: relative;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.233);
 }
-
 
 .menu a{
-    color: #ffff;
-} 
+    
+    color: #fff;
+    font-size: 16px;
+    margin: 10px;
+    
+}
 
- li:hover{
-    transition: .5s;
+.menu li:hover{
     cursor: pointer;
-    background-image: linear-gradient(to right
-    , rgb(20, 147, 220),rgb(17, 54, 71));
-} 
-
-header .icon{
-    
-    text-align: center;
+    border: 1px solid rgba(236, 72, 7, 0.993);
 }
 
-.icon > img{
-    width: 85px;
-    
-}
-
-
-
-
-
-
-
-
-/* .content{
-     
-    min-height: 400px;
-    margin-top: 10px;
-    
-    width: 100%;
-    height: 85vh;
-    color: white;
-    padding: 100px;
-    display: flex; 
-    justify-content: space-around;
-       
-    
-}
-
-.descricao{
-    max-width: 380px;
+.header{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
     align-items: center;
-}
-
-.content h1{
-    margin: auto;
-    font-family: 'Sail', cursive;
-    text-align: center;
-    width: auto;
-    font-size: 70px;
-    
-    
-}
-
-.content p{
-    margin: auto;
-    font-family: 'El Messiri', sem serifa;
-    text-align: center;
-    font-size: 35px;
-    width: auto;
-    
-}
-
-.img-content{
-    min-width: fit-content;
-    max-width: 460px;
-    
-    align-self: center;
+    /* background: grey; */
     
     
     
 }
 
-.img-halo{
+.headline{
+    margin-left: 5%;
+    margin-right: 5%;
+    flex: 40%;
     
-    flex-wrap: wrap;
-   
-    opacity: cover;
-}     */
+}
+
+.headline h1, h2{
+    font-family: 'Carattere', cursive;
+    color:  rgba(236, 72, 7, 0.993);
+    font-size: 20px;
+    font-weight: 900;
+    padding: 0;
+    margin: 0;
+}
+
+.headline p{
+    font-family: 'Macondo', cursive;
+    text-align: left;
+    color: #fff;
+}
+
+.img-headline{
+    margin-left: 3%;
+    
+    
+}
+
 
 
 
