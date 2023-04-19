@@ -5,11 +5,11 @@ body{
     max-width: 1280px;
     min-height: 100vh;
     margin: 0  auto;
-    background-image: url(../imagens/fundo.png);
+    /* background-image: url(../imagens/fundo.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center center;
-    
+    background-position: center center; */
+    background-image: linear-gradient(to right bottom, #3c0534, #a10fdf, #000277);
 }
 
 .navbar{
