@@ -27,26 +27,32 @@ body{
 }
 
 .menu{
-    
-    display: flex;
-    flex: 70%;
+    font-family: 'Akaya Telivigala', cursiva;
+    display: inline-block;
+    /* flex: 70%; */
     justify-content: center;
     padding: 20px;
+    float: right;
+    margin-right: 40px;
+    
     /* border: 1px solid black; */
 }
 
 .menu li{
     /* border: 1px solid black; */
+    
+    display: inline-block;
     border-radius: 10px;
-    margin: 10px;
+    margin: 0 10px;
     padding: 10px;
+    /* line-height: 50px; */
     box-shadow: 5px 5px rgba(0, 0, 0, 0.233);
 }
 
 .menu a{
-    
+    text-transform: uppercase;
     color: #fff;
-    font-size: 16px;
+    font-size: 15px;
     margin: 10px;
     
 }
@@ -75,12 +81,14 @@ body{
 }
 
 .headline h1, h2{
+    
     font-family: 'Nabla', cursiva;
-    color:  rgba(236, 72, 7, 0.993);
+    /* color:  rgba(236, 72, 7, 0.993); */
     font-size: 20px;
     font-weight: 900;
     padding: 0;
     margin: 0;
+    
 }
 
 .headline p{
@@ -94,6 +102,9 @@ body{
     margin-left: 3%;
     
     
+}
+.navbar #icone{
+    color: #fff;
 }
 
 
